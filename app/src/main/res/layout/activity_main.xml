@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/hotwordTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="@string/HotwordSetting"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/show"
+        android:layout_below="@+id/hotwordTitle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开始录音" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btn_start"
+            android:layout_weight="1"
+            android:text="停止录音" />
+
+        <Button
+            android:id="@+id/btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="切换技能排序" />
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/show"
+        android:layout_above="@+id/layout_bottom"
+        android:paddingLeft="20dp">
+
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/show"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_toRightOf="@+id/listview"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wakeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="唤醒"
+                android:textSize="24dp"></TextView>
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                android:clickable="true"></CheckBox>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wakeup"
+                android:text="开启时..........."
+                android:textSize="18dp"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="语言"
+                android:textSize="24dp"></TextView>
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/changelanguagearror"-->
+            <!--                android:layout_width="20dp"-->
+            <!--                android:layout_height="20dp"-->
+            <!--                android:layout_alignParentRight="true"-->
+            <!--                android:src="@drawable/arror"></ImageView>-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/language_choice"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="24dp"-->
+            <!--                android:layout_toLeftOf="@+id/spinner"-->
+            <!--                android:text="中文"></TextView>-->
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:entries="@array/languege"></Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/language"
+                android:text="切换语种后..........."
+                android:textSize="18dp"></TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HotwordSample</string>
+    <string name="HotwordSetting">兜风热词设置</string>
+
+    <string name="openCondition">开空调</string>
+    <string name="openScreen">打开屏幕</string>
+</resources>
