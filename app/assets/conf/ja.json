@@ -1,0 +1,374 @@
+{
+  "vad": {
+    "res": "vad_aicar_v0.15.bin",
+    "enable": false,
+    "pauseTime": 0
+  },
+  "audio": {
+    "srcPath": "/sdcard/lyra/audio_ja",
+    "customFeed": true,
+    "feedSize": 6400,
+    "feedIntervalTime": 100
+  },
+  "res": "ebnfr_jp_v01.0.bin",
+  "thresh": 0.55,
+  "words": [
+    {
+      "command": "カーナビ メニュー を 開始 する",
+      "commandTips": "カーナビメニューを開始する",
+      "action": "action.navi.TurnOnNavigation"
+    },
+    {
+      "command": "カーナビ メニュー を 終了 する",
+      "commandTips": "カーナビメニューを終了する",
+      "action": "action.navi.TurnOffNavigation"
+    },
+    {
+      "command": "画面 表示",
+      "commandTips": "画面表示",
+      "action": "action.system.ScreenOn"
+    },
+    {
+      "command": "画面 非 表示",
+      "commandTips": "画面非表示",
+      "action": "action.system.ScreenOff"
+    },
+    {
+      "command": "WIFI メニュー を 開く",
+      "commandTips": "WiFiメニューを開く",
+      "action": "action.system.OpenTheWiFi"
+    },
+    {
+      "command": "WIFI メニュー を 閉じる",
+      "commandTips": "WiFiメニューを閉じる",
+      "action": "action.system.CloseTheWiFi"
+    },
+    {
+      "command": "ブルートゥースメニュー を 開く",
+      "commandTips": "ブルートゥースメニューを開く",
+      "action": "action.system.OpenTheBluetooth"
+    },
+    {
+      "command": "ブルートゥースメニュー を 閉じる",
+      "commandTips": "ブルートゥースメニューを閉じる",
+      "action": "action.system.CloseTheBluetooth"
+    },
+    {
+      "command": "ボリューム アップ",
+      "commandTips": "ボリュームアップ",
+      "action": "action.system.VolumeUp"
+    },
+    {
+      "command": "ボリューム ダウン",
+      "commandTips": "ボリュームダウン",
+      "action": "action.system.VolumeDown"
+    },
+    {
+      "command": "ミュート",
+      "commandTips": "ミュート",
+      "action": "action.system.VolumeMute"
+    },
+    {
+      "command": "ミュート 解除",
+      "commandTips": "ミュート解除",
+      "action": "action.system.VolumeUnmute"
+    },
+    {
+      "command": "明る さ を 上げる",
+      "commandTips": "明るさを上げる",
+      "action": "action.system.BrightnessUp"
+    },
+    {
+      "command": "明る さ を 下げる",
+      "commandTips": "明るさを下げる",
+      "action": "action.system.BrightnessDown"
+    },
+    {
+      "command": "最大 輝度 に 設定 する",
+      "commandTips": "最大輝度に設定する",
+      "action": "action.system.BrightnessMax"
+    },
+    {
+      "command": "最小 輝度 に 設定 する",
+      "commandTips": "最小輝度に設定する",
+      "action": "action.system.BrightnessMin"
+    },
+    {
+      "command": "ミラー リンク を 開く",
+      "commandTips": "ミラーリンクを開く",
+      "action": "action.system.OpenMirrorLink"
+    },
+    {
+      "command": "ミラー リンク を 閉じる",
+      "commandTips": "ミラーリンクを閉じる",
+      "action": "action.system.CloseMirrorLink"
+    },
+    {
+      "command": "CARPLAY を 開く",
+      "commandTips": "CarPlayを開く",
+      "action": "action.system.OpenCarPlay"
+    },
+    {
+      "command": "CARPLAY を 閉じる",
+      "commandTips": "CarPlayを閉じる",
+      "action": "action.system.CloseCarPlay"
+    },
+    {
+      "command": "ブラウザ を 開く",
+      "commandTips": "ブラウザを開く",
+      "action": "action.system.OpenTheBrowser"
+    },
+    {
+      "command": "ブラウザ を 閉じる",
+      "commandTips": "ブラウザを閉じる",
+      "action": "action.system.CloseTheBrowser"
+    },
+    {
+      "command": "戻る",
+      "commandTips": "戻る",
+      "action": "action.system.GoBack"
+    },
+    {
+      "command": "ホームページ に 戻る",
+      "commandTips": "ホームページに戻る",
+      "action": "action.system.BackToHome"
+    },
+    {
+      "command": "音楽 メニュー を 開く",
+      "commandTips": "音楽メニューを開く",
+      "action": "action.media.OpenTheMusic"
+    },
+    {
+      "command": "音楽 メニュー を 閉じる",
+      "commandTips": "音楽メニューを閉じる",
+      "action": "action.media.CloseTheMusic"
+    },
+    {
+      "command": "音楽 再生",
+      "commandTips": "音楽再生",
+      "action": "action.media.PlayMusic"
+    },
+    {
+      "command": "オンライン 音楽 メニュー を 開く",
+      "commandTips": "オンライン音楽メニューを開く",
+      "action": "action.media.OpenTheOnlineMusic"
+    },
+    {
+      "command": "オンライン 音楽 メニュー を 閉じる",
+      "commandTips": "オンライン音楽メニューを閉じる",
+      "action": "action.media.CloseTheOnlineMusic"
+    },
+    {
+      "command": "ラジオ を つける",
+      "commandTips": "ラジオをつける",
+      "action": "action.media.OpenTheRadio"
+    },
+    {
+      "command": "ラジオ を 消す",
+      "commandTips": "ラジオを消す",
+      "action": "action.media.CloseTheRadio"
+    },
+    {
+      "command": "ビデオ メニュー を 開く",
+      "commandTips": "ビデオメニューを開く",
+      "action": "action.media.OpenTheVideo"
+    },
+    {
+      "command": "ビデオ メニュー を 閉じる",
+      "commandTips": "ビデオメニューを閉じる",
+      "action": "action.media.CloseTheVideo"
+    },
+    {
+      "command": "ビデオ を 再生 する",
+      "commandTips": "ビデオを再生する",
+      "action": "action.media.PlayVideo"
+    },
+    {
+      "command": "テレビ を つける",
+      "commandTips": "テレビをつける",
+      "action": "action.media.OpenTheTV"
+    },
+    {
+      "command": "テレビ を 消す",
+      "commandTips": "テレビを消す",
+      "action": "action.media.CloseTheTV"
+    },
+    {
+      "command": "EQ を 開く",
+      "commandTips": "EQを開く",
+      "action": "action.media.OpenTheEQ"
+    },
+    {
+      "command": "EQ を 閉じる",
+      "commandTips": "EQを閉じる",
+      "action": "action.media.CloseTheEQ"
+    },
+    {
+      "command": "再生 を 一時 停止 する",
+      "commandTips": "再生を一時停止する",
+      "action": "action.media.PausePlayBack"
+    },
+    {
+      "command": "再生 を 再開 する",
+      "commandTips": "再生を再開する",
+      "action": "action.media.ContinuePlaying"
+    },
+    {
+      "command": "次 の 曲 へ",
+      "commandTips": "次の曲へ",
+      "action": "action.media.NextTrack"
+    },
+    {
+      "command": "前 の 曲 へ",
+      "commandTips": "前の曲へ",
+      "action": "action.media.PreviousTrack"
+    },
+    {
+      "command": "次 の チャンネル へ",
+      "commandTips": "次のチャンネルへ",
+      "action": "action.media.NextStation"
+    },
+    {
+      "command": "前 の チャンネル へ",
+      "commandTips": "前のチャンネルへ",
+      "action": "action.media.PreviousStation"
+    },
+    {
+      "command": "前方 検索",
+      "commandTips": "前方検索",
+      "action": "action.media.searchForward"
+    },
+    {
+      "command": "後方 検索",
+      "commandTips": "後方検索",
+      "action": "action.media.SearchBack"
+    },
+    {
+      "command": "ラジオ 局 検索",
+      "commandTips": "ラジオ局検索",
+      "action": "action.media.SearchRadioStation"
+    },
+    {
+      "command": "モード 切替",
+      "commandTips": "モード切替",
+      "action": "action.media.SwitchMode"
+    },
+    {
+      "command": "エアコン メニュー を 開く",
+      "commandTips": "エアコンメニューを開く",
+      "action": "action.car.OpenTheAirConditioning"
+    },
+    {
+      "command": "エアコン メニュー を 閉じる",
+      "commandTips": "エアコンメニューを閉じる",
+      "action": "action.car.CloseTheAirConditioning"
+    },
+    {
+      "command": "温度 を 上げる",
+      "commandTips": "温度を上げる",
+      "action": "action.car.TemperatureUp"
+    },
+    {
+      "command": "温度 を 下げる",
+      "commandTips": "温度を下げる",
+      "action": "action.car.TemperatureDown"
+    },
+    {
+      "command": "最高 温度",
+      "commandTips": "最高温度",
+      "action": "action.car.TemperatureMax"
+    },
+    {
+      "command": "最低 温度",
+      "commandTips": "最低温度",
+      "action": "action.car.TemperatureMin"
+    },
+    {
+      "command": "風速 を 上げる",
+      "commandTips": "風速を上げる",
+      "action": "action.car.WindSpeedUp"
+    },
+    {
+      "command": "風速 を 下げる",
+      "commandTips": "風速を下げる",
+      "action": "action.car.WindSpeedDown"
+    },
+    {
+      "command": "最大 風速",
+      "commandTips": "最大風速",
+      "action": "action.car.WindSpeedMax"
+    },
+    {
+      "command": "最低 風速",
+      "commandTips": "最低風速",
+      "action": "action.car.WindSpeedMin"
+    },
+    {
+      "command": "AC を オン に する",
+      "commandTips": "ACをオンにする",
+      "action": "action.car.ACTurnOn"
+    },
+    {
+      "command": "AC を オフ に する",
+      "commandTips": "ACをオフにする",
+      "action": "action.car.ACTurnOff"
+    },
+    {
+      "command": "内気 循環 を 開く",
+      "commandTips": "内気循環を開く",
+      "action": "action.car.OpenInnerCirculation"
+    },
+    {
+      "command": "内気 循環 を 閉じる",
+      "commandTips": "内気循環を閉じる",
+      "action": "action.car.CloseInnerCirculation"
+    },
+    {
+      "command": "AUX メニュー を 開く",
+      "commandTips": "AUXメニューを開く",
+      "action": "action.car.OpenAuxiliary"
+    },
+    {
+      "command": "AUX メニュー を 閉じる",
+      "commandTips": "AUXメニューを閉じる",
+      "action": "action.car.CloseAuxiliary"
+    },
+    {
+      "command": "DVR メニュー を 開く",
+      "commandTips": "DVRメニューを開く",
+      "action": "action.car.OpenDVR"
+    },
+    {
+      "command": "DVR メニュー を 閉じる",
+      "commandTips": "DVRメニューを閉じる",
+      "action": "action.car.CloseDVR"
+    },
+    {
+      "command": "レフトビューカメラ を 開く",
+      "commandTips": "レフトビューカメラを開く",
+      "action": "action.car.OpenLeftCamera"
+    },
+    {
+      "command": "ライトビューカメラ を 開く",
+      "commandTips": "ライトビューカメラを開く",
+      "action": "action.car.OpenRightCamera"
+    },
+    {
+      "command": "フロントビューカメラ を 開く",
+      "commandTips": "フロントビューカメラを開く",
+      "action": "action.car.OpenFrontCamera"
+    },
+    {
+      "command": "リアビューカメラ を 開く",
+      "commandTips": "リアビューカメラを開く",
+      "action": "action.car.OpenRearCamera"
+    },
+    {
+      "command": "パノラマ を 開く",
+      "commandTips": "パノラマを開く",
+      "action": "action.car.OpenPanorama"
+    }
+  ]
+}
+
+

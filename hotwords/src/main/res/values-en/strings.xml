@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">Hotwords</string>
+
+    <string name="main_tab_about">About</string>
+    <string name="main_tab_commands">Voice Commands</string>
+    <string name="main_tab_settings">Voice Settings</string>
+    <string name="main_title">AISpeech Lyra Settings</string>
+
+    <string name="settings_item_wakeup">Wakeup</string>
+    <string name="settings_item_wakeup_tips">When open it, voice commands can be used directly. When closed, voice commands are disabled.</string>
+    <string name="settings_item_language">Language</string>
+    <string name="settings_item_language_tips">If it is changed, the interface and the voice interaction language is changed together.</string>
+
+    <string name="about_desc">AISpeech Lyra Intelligent Voice Driving System</string>
+    <string name="about_terms"><u>Terms</u></string>
+    <string name="about_privacy"><u>Privacy</u></string>
+    <string name="about_copyright">Copyright © 2007-%s AISpeech All Rights Reserved</string>
+
+    <string name="dialog_title">Choose Language</string>
+    <string name="dialog_btn_confirm">Confirm</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+
+    <string name="commands_item_system_control">System Control</string>
+    <string name="commands_item_media_control">Media Control</string>
+    <string name="commands_item_navi_control">Navi Control</string>
+    <string name="commands_item_car_control">Car Control</string>
+
+    <string name="commands_item_system_control_detail">screen on, screen off,
+            \nopen the wifi, close the wifi,
+            \nopen the bluetooth, close the bluetooth,
+            \nvolume up, volume down,
+            \nvolume mute, unmute,
+            \nturn up brightness, turn down brightness,
+            \nbrightness set to maximum,
+            \nkeep the brightness to a minimum,
+            \nopen mirror link, close mirror link,
+            \nopen CarPlay, close CarPlay,
+            \nopen the browser, close the browser,
+            \ngo back, back to Home</string>
+    <string name="commands_item_media_control_detail">open the music, play music, close the music,
+            \nopen the radio, close the radio,
+            \nopen the video, play video, close the video,
+            \nopen the TV, close the TV,
+            \nopen EQ, close EQ,
+            \nopen the online music, close the online music,
+            \npause playback, continue playing,
+            \nprevious track, next track,
+            \nturn in previous station, turn in next station,
+            \nsearch forward, search back,
+            \nsearch radio station,
+            \nswitch mode</string>
+    <string name="commands_item_navi_control_detail">turn on navigation, turn off navigation</string>
+    <string name="commands_item_car_control_detail">open the air-conditioning, close the air-conditioning,
+            \nturn up the temperature, turn down the temperature,
+            \nkeep the temperature to a minimum,
+            \nset the temperature to the highest,
+            \nincrease the wind speed, decrease the wind speed,
+            \nmaximum wind speed, minimum wind speed,
+            \nturn on ac switch, turn off ac switch,
+            \nopen inner circulation, close inner circulation,
+            \nopen the auxiliary, close the auxiliary,
+            \nopen DVR, close DVR,
+            \nopen left camera, open right camera,
+            \nopen front camera, open rear camera,
+            \nopen panorama</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name" translatable="false">Hotwords</string>
+
+    <string name="main_tab_about">Обо</string>
+    <string name="main_tab_commands">Голосовая команда</string>
+    <string name="main_tab_settings">Настройки голоса</string>
+    <string name="main_title">Настройки Сибичи Тяньцинь</string>
+
+    <string name="settings_item_wakeup">Разбудить</string>
+    <string name="settings_item_wakeup_tips">Голосовая команда может использоваться непосредственно при включении аппарата. После выключения аппарата голосовая команда становится недействительной.</string>
+    <string name="settings_item_language">Язык</string>
+    <string name="settings_item_language_tips">После переключения языков язык будет автоматически переключаться.</string>
+
+    <string name="about_desc">Сибичи Тяньцинь Интеллектуальная голосовая система вождения</string>
+    <string name="about_terms"><u>Пункт</u></string>
+    <string name="about_privacy"><u>Личный секрет</u></string>
+    <string name="about_copyright">авторское право © 2007-%s Сибичи оставляет за собой все права</string>
+
+    <string name="dialog_title">Выбрать язык</string>
+    <string name="dialog_btn_confirm">Определить</string>
+    <string name="dialog_btn_cancel">Отменить</string>
+
+    <string name="commands_item_system_control">Контроль системы</string>
+    <string name="commands_item_media_control">Контроль мультимедиа</string>
+    <string name="commands_item_navi_control">Контроль навигацией</string>
+    <string name="commands_item_car_control">Контроль кузова </string>
+
+    <string name="commands_item_system_control_detail">Включить экран, Выключить экран,
+                \nВключить Wifi, Выключить Wifi,
+                \nвключить Bluetooth, Закрыть Bluetooth,
+                \nувеличение громкости, уменьшение громкости,
+                \nотключение громкости, Отключить бесшумный режим,
+                \nувеличение яркости, уменьшение яркости,
+                \nДержать яркость на максимуме,
+                \nДержать яркость на минимуме,
+                \nоткрыть зеркальную ссылку, Закрыть зеркальную ссылку,
+                \nОткрыть  CarPlay, Закрыть CarPlay,
+                \nОткрыть браузер, Закрыть браузер,
+                \nВернуться назад, вернуться на главную страницу</string>
+    <string name="commands_item_media_control_detail">включить музыку, воспроизводить музыку, выключить музыку,
+                \nвключить радио, Закрыть радио,
+                \nвключить видео, воспроизводить видео, выключить видео,
+                \nВключить телевизор, Выключить телевизор,
+                \nВключить переключатель EQ, Выключить переключатель EQ,
+                \nОткрыть онлайн музыку, Закрыть онлайн музыку,
+                \nприостановить музыку, Продолжить передачу,
+                \nпредыдущая песня, следующая песня,
+                \nПовернуть на следующую станцию, Повернуть на предыдущую станцию,
+                \nПоиск вперед, Поиск назад,
+                \nПоиск радиостанции,
+                \nРежим переключения</string>
+    <string name="commands_item_navi_control_detail">включить навигацию, выключить навигацию</string>
+    <string name="commands_item_car_control_detail">Открыть кондиционер, Закрыть кондиционер,
+                \nПовысить температуру, Уменьшить температуру,
+                \nУстановить самую низшую температуру,
+                \nУстановить самую высокую температуру,
+                \nУвеличить скорость ветра, Уменьшить скорость ветра,
+                \nМаксимальная скорость ветра, Минимальная скорость ветра,
+                \nВключить переключатель АС, Выключить переключатель АС,
+                \nОткрыть внутреннюю циркуляцию, Закрыть внутреннюю циркуляцию,
+                \nAUX включен, AUX выключен,
+                \nОткрыть DVR, Закрыть DVR,
+                \nОткрыть левую камеру, Открыть правую камеру,
+                \nОткрыть переднюю камеру, Открыть заднюю камеру,
+                \nОткрыть панораму</string>
+
+
+</resources>

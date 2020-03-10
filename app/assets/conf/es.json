@@ -1,0 +1,431 @@
+{
+  "vad": {
+    "res": "vad_aicar_v0.15.bin",
+    "enable": false,
+    "pauseTime": 0
+  },
+  "audio": {
+    "srcPath": "/sdcard/lyra/audio",
+    "customFeed": true,
+    "feedSize": 6400,
+    "feedIntervalTime": 100
+  },
+  "res": "ebnfr_spanish_82words_v02.bin",
+  "thresh": 0.63,
+  "words": [
+    {
+      "command": "ENCENDER LA NAVEGACIÓN",
+      "commandTips": "encender la navegación",
+      "action": "action.navi.TurnOnNavigation"
+    },
+    {
+      "command": "APAGAR LA NAVEGACIÓN",
+      "commandTips": "apagar la navegación",
+      "action": "action.navi.TurnOffNavigation"
+    },
+    {
+      "command": "ENCENDER LA PANTALLA",
+      "commandTips": "encender la pantalla",
+      "action": "action.system.ScreenOn"
+    },
+    {
+      "command": "APAGAR LA PANTALLA",
+      "commandTips": "apagar la pantalla",
+      "action": "action.system.ScreenOff"
+    },
+    {
+      "command": "ENCENDER WIFI",
+      "commandTips": "encender wifi",
+      "action": "action.system.OpenTheWiFi"
+    },
+    {
+      "command": "APAGAR WIFI",
+      "commandTips": "apagar wifi",
+      "action": "action.system.CloseTheWiFi"
+    },
+    {
+      "command": "INICIAR ZONA ACTIVA",
+      "commandTips": "iniciar zona activa",
+      "action": "action.system.OpenTheHotspot"
+    },
+    {
+      "command": "CERRAR ZONA ACTIVA",
+      "commandTips": "cerrar zona activa",
+      "action": "action.system.CloseTheHotspot"
+    },
+    {
+      "command": "ENCENDER BLUETOOTH",
+      "commandTips": "encender Bluetooth",
+      "action": "action.system.OpenTheBluetooth"
+    },
+    {
+      "command": "APAGAR BLUETOOTH",
+      "commandTips": "Apagar Bluetooth",
+      "action": "action.system.CloseTheBluetooth"
+    },
+    {
+      "command": "SUBIR EL VOLUMEN",
+      "commandTips": "subir el volumen",
+      "action": "action.system.VolumeUp"
+    },
+    {
+      "command": "BAJAR EL VOLUMEN",
+      "commandTips": "bajar el volumen",
+      "action": "action.system.VolumeDown"
+    },
+    {
+      "command": "DESACTIVAR EL SONIDO",
+      "commandTips": "desactivar el sonido",
+      "action": "action.system.VolumeMute"
+    },
+    {
+      "command": "DEJAR DE SILENCIAR",
+      "commandTips": "dejar de silenciar",
+      "action": "action.system.VolumeUnmute"
+    },
+    {
+      "command": "ILUMINAR LA PANTALLA",
+      "commandTips": "iluminar la pantalla",
+      "action": "action.system.BrightnessUp"
+    },
+    {
+      "command": "OSCURECER LA PANTALLA",
+      "commandTips": "oscurecer la pantalla",
+      "action": "action.system.BrightnessDown"
+    },
+    {
+      "command": "BRILLO MÁXIMO",
+      "commandTips": "Brillo máximo",
+      "action": "action.system.BrightnessMax"
+    },
+    {
+      "command": "BRILLO MÍNIMO",
+      "commandTips": "Brillo mínimo",
+      "action": "action.system.BrightnessMin"
+    },
+    {
+      "command": "ABRIR YOUTUBE",
+      "commandTips": "abrir Youtube",
+      "action": "action.system.OpenYoutube"
+    },
+    {
+      "command": "ABRIR PLAYSTORE",
+      "commandTips": "abrir PlayStore",
+      "action": "action.system.OpenPlayStore"
+    },
+    {
+      "command": "ENCIENDE LA DUPLICACIÓN DE PANTALLA",
+      "commandTips": "Enciende la duplicación de pantalla",
+      "action": "action.system.OpenMirrorLink"
+    },
+    {
+      "command": "APAGUE LA DUPLICACIÓN DE PANTALLA",
+      "commandTips": "Apague la duplicación de pantalla",
+      "action": "action.system.CloseMirrorLink"
+    },
+    {
+      "command": "ENCIENDE CARPLAY",
+      "commandTips": "Enciende CarPlay",
+      "action": "action.system.OpenCarPlay"
+    },
+    {
+      "command": "APAGUE CARPLAY",
+      "commandTips": "Apague CarPlay",
+      "action": "action.system.CloseCarPlay"
+    },
+    {
+      "command": "ENCIENDE EL NAVEGADOR",
+      "commandTips": "Enciende el navegador",
+      "action": "action.system.OpenTheBrowser"
+    },
+    {
+      "command": "APAGUE EL NAVEGADOR",
+      "commandTips": "Apague el navegador",
+      "action": "action.system.CloseTheBrowser"
+    },
+    {
+      "command": "REGRESAR",
+      "commandTips": "Regresar",
+      "action": "action.system.GoBack"
+    },
+    {
+      "command": "VOLVER A LA PÁGINA DE INICIO",
+      "commandTips": "volver a la página de inicio",
+      "action": "action.system.BackToHome"
+    },
+    {
+      "command": "ENCENDER LA MÚSICA",
+      "commandTips": "encender la música",
+      "action": "action.media.OpenTheMusic"
+    },
+    {
+      "command": "APAGAR LA MÚSICA",
+      "commandTips": "apagar la música",
+      "action": "action.media.CloseTheMusic"
+    },
+    {
+      "command": "REPRODUCIR MÚSICA",
+      "commandTips": "reproducir música",
+      "action": "action.media.PlayMusic"
+    },
+    {
+      "command": "ABRE LA MUSICA ONLINE",
+      "commandTips": "Abre la musica online",
+      "action": "action.media.OpenTheOnlineMusic"
+    },
+    {
+      "command": "CIERRA LA MUSICA ONLINE",
+      "commandTips": "Cierra la musica online",
+      "action": "action.media.CloseTheOnlineMusic"
+    },
+    {
+      "command": "ENCENDER LA RADIO",
+      "commandTips": "encender la radio",
+      "action": "action.media.OpenTheRadio"
+    },
+    {
+      "command": "APAGAR LA RADIO",
+      "commandTips": "Apagar la radio",
+      "action": "action.media.CloseTheRadio"
+    },
+    {
+      "command": "ENCENDER EL VIDEO",
+      "commandTips": "encender el video",
+      "action": "action.media.OpenTheVideo"
+    },
+    {
+      "command": "APAGAR EL VIDEO",
+      "commandTips": "apagar el video",
+      "action": "action.media.CloseTheVideo"
+    },
+    {
+      "command": "REPRODUCIR EL VIDEO",
+      "commandTips": "reproducir el video",
+      "action": "action.media.PlayVideo"
+    },
+    {
+      "command": "ENCIENDE EL TELEVISOR",
+      "commandTips": "Enciende el televisor",
+      "action": "action.media.OpenTheTV"
+    },
+    {
+      "command": "APAGUE EL TELEVISOR",
+      "commandTips": "Apague el televisor",
+      "action": "action.media.CloseTheTV"
+    },
+    {
+      "command": "ENCIENDE EQ",
+      "commandTips": "Enciende EQ",
+      "action": "action.media.OpenTheEQ"
+    },
+    {
+      "command": "APAGUE EQ",
+      "commandTips": "Apague EQ",
+      "action": "action.media.CloseTheEQ"
+    },
+    {
+      "command": "PAUSAR LA MÚSICA",
+      "commandTips": "pausar la música",
+      "action": "action.media.PausePlayBack"
+    },
+    {
+      "command": "CONTINUAR A REPRODUÇÃO",
+      "commandTips": "Continuar a reprodução",
+      "action": "action.media.ContinuePlaying"
+    },
+    {
+      "command": "PRÓXIMA MÚSICA",
+      "commandTips": "próxima música",
+      "action": "action.media.NextTrack"
+    },
+    {
+      "command": "MÚSICA ANTERIOR",
+      "commandTips": "música anterior",
+      "action": "action.media.PreviousTrack"
+    },
+    {
+      "command": "SIGUIENTE",
+      "commandTips": "Siguiente",
+      "action": "action.media.NextStation"
+    },
+    {
+      "command": "ANTERIOR",
+      "commandTips": "Anterior",
+      "action": "action.media.PreviousStation"
+    },
+    {
+      "command": "BUSCAR HACIA ADELANTE",
+      "commandTips": "Buscar hacia adelante",
+      "action": "action.media.searchForward"
+    },
+    {
+      "command": "BUSCAR HACIA ATRÁS",
+      "commandTips": "Buscar hacia atrás",
+      "action": "action.media.SearchBack"
+    },
+    {
+      "command": "BUSCA EMISORAS DE RADIO",
+      "commandTips": "Busca emisoras de radio",
+      "action": "action.media.SearchRadioStation"
+    },
+    {
+      "command": "MODO DE CAMBIO",
+      "commandTips": "Modo de cambio",
+      "action": "action.media.SwitchMode"
+    },
+    {
+      "command": "ENCIENDE EL AIRE ACONDICIONADO",
+      "commandTips": "Enciende el aire acondicionado",
+      "action": "action.car.OpenTheAirConditioning"
+    },
+    {
+      "command": "APAGUE EL AIRE ACONDICIONADO",
+      "commandTips": "Apague el aire acondicionado",
+      "action": "action.car.CloseTheAirConditioning"
+    },
+    {
+      "command": "AUMENTAR LA TEMPERATURA",
+      "commandTips": "Aumentar la temperatura",
+      "action": "action.car.TemperatureUp"
+    },
+    {
+      "command": "BAJAR LA TEMPERATURA",
+      "commandTips": "Bajar la temperatura",
+      "action": "action.car.TemperatureDown"
+    },
+    {
+      "command": "TEMPERATURA MÁXIMA",
+      "commandTips": "Temperatura máxima",
+      "action": "action.car.TemperatureMax"
+    },
+    {
+      "command": "TEMPERATURA MÍNIMO",
+      "commandTips": "Temperatura mínimo",
+      "action": "action.car.TemperatureMin"
+    },
+    {
+      "command": "AUMENTAR LA VELOCIDAD DEL VIENTO",
+      "commandTips": "Aumentar la velocidad del viento",
+      "action": "action.car.WindSpeedUp"
+    },
+    {
+      "command": "BAJAR LA VELOCIDAD DEL VIENTO",
+      "commandTips": "Bajar la velocidad del viento",
+      "action": "action.car.WindSpeedDown"
+    },
+    {
+      "command": "VELOCIDAD MÁXIMA DEL VIENTO",
+      "commandTips": "Velocidad máxima del viento",
+      "action": "action.car.WindSpeedMax"
+    },
+    {
+      "command": "VELOCIDAD MÍNIMA DEL VIENTO",
+      "commandTips": "Velocidad mínima del viento",
+      "action": "action.car.WindSpeedMin"
+    },
+    {
+      "command": "ENCIENDA EL INTERRUPTOR DE AC",
+      "commandTips": "Encienda el interruptor de AC",
+      "action": "action.car.ACTurnOn"
+    },
+    {
+      "command": "APAGUE EL INTERRUPTOR DE AC",
+      "commandTips": "Apague el interruptor de AC",
+      "action": "action.car.ACTurnOff"
+    },
+    {
+      "command": "ENCIENDE LA CIRCULACIÓN INTERNA",
+      "commandTips": "Enciende la circulación interna",
+      "action": "action.car.OpenInnerCirculation"
+    },
+    {
+      "command": "APAGUE LA CIRCULACIÓN INTERNA",
+      "commandTips": "Apague la circulación interna",
+      "action": "action.car.CloseInnerCirculation"
+    },
+    {
+      "command": "ENCENDER AUX",
+      "commandTips": "encender AUX",
+      "action": "action.car.OpenAuxiliary"
+    },
+    {
+      "command": "APAGAR AUX",
+      "commandTips": "apagar AUX",
+      "action": "action.car.CloseAuxiliary"
+    },
+    {
+      "command": "ENCIENDE DVR",
+      "commandTips": "Enciende DVR",
+      "action": "action.car.OpenDVR"
+    },
+    {
+      "command": "APAGUE DVR",
+      "commandTips": "Apague DVR",
+      "action": "action.car.CloseDVR"
+    },
+    {
+      "command": "ENCIENDE LA CÁMARA A LA IZQUIERDA",
+      "commandTips": "Enciende la cámara a la izquierda",
+      "action": "action.car.OpenLeftCamera"
+    },
+    {
+      "command": "ENCIENDE LA CÁMARA DERECHA",
+      "commandTips": "Enciende la cámara derecha",
+      "action": "action.car.OpenRightCamera"
+    },
+    {
+      "command": "ENCIENDE LA CÁMARA FRONTAL",
+      "commandTips": "Enciende la cámara frontal",
+      "action": "action.car.OpenFrontCamera"
+    },
+    {
+      "command": "ENCIENDE LA CÁMARA TRASERA",
+      "commandTips": "Enciende la cámara trasera",
+      "action": "action.car.OpenRearCamera"
+    },
+    {
+      "command": "PANORAMA ABIERTO",
+      "commandTips": "Panorama abierto",
+      "action": "action.car.OpenPanorama"
+    },
+    {
+      "command": "SACAR UNA FOTO",
+      "commandTips": "sacar una foto",
+      "action": "action.car.Photograph"
+    },
+    {
+      "command": "COMENZAR A GRABAR",
+      "commandTips": "comenzar a grabar",
+      "action": "action.car.StartRecording"
+    },
+    {
+      "command": "DEJAR DE GRABAR",
+      "commandTips": "dejar de grabar",
+      "action": "action.car.StopRecording"
+    },
+    {
+      "command": "PROTECCIÓN DE CONDUCCIÓN",
+      "commandTips": "protección de conducción",
+      "action": "action.car.DrivingProtection"
+    },
+    {
+      "command": "APAGAR",
+      "commandTips": "apagar",
+      "action": "action.car.PowerOff"
+    },
+    {
+      "command": "REPRODUCIR CD",
+      "commandTips": "reproducir CD",
+      "action": "action.car.PlayCD"
+    },
+    {
+      "command": "REPRODUCIR DVD",
+      "commandTips": "reproducir DVD",
+      "action": "action.car.PlayDVD"
+    }
+  ]
+}
+
+
+
+

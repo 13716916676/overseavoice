@@ -1,0 +1,303 @@
+{
+  "vad": {
+    "res": "vad_aicar_v0.15.bin",
+    "enable": true,
+    "pauseTime": 0
+  },
+  "audio": {
+    "srcPath": "/sdcard/lyra/audio",
+    "customFeed": false,
+    "feedSize": 6400,
+    "feedIntervalTime": 100
+  },
+  "res": "ebnfr.dymc.char.v02.bin",
+  "thresh": 0.7,
+  "words": [
+    {
+      "command": "打开导航",
+      "action": "action.navi.TurnOnNavigation"
+    },
+    {
+      "command": "关闭导航",
+      "action": "action.navi.TurnOffNavigation"
+    },
+    {
+      "command": "打开屏幕",
+      "action": "action.system.ScreenOn"
+    },
+    {
+      "command": "关闭屏幕",
+      "action": "action.system.ScreenOff"
+    },
+    {
+      "command": "打开 WiFi",
+      "action": "action.system.OpenTheWiFi"
+    },
+    {
+      "command": "关闭 WiFi",
+      "action": "action.system.CloseTheWiFi"
+    },
+    {
+      "command": "打开蓝牙",
+      "action": "action.system.OpenTheBluetooth"
+    },
+    {
+      "command": "关闭蓝牙",
+      "action": "action.system.CloseTheBluetooth"
+    },
+    {
+      "command": "增大音量",
+      "action": "action.system.VolumeUp"
+    },
+    {
+      "command": "减小音量",
+      "action": "action.system.VolumeDown"
+    },
+    {
+      "command": "静音",
+      "action": "action.system.VolumeMute"
+    },
+    {
+      "command": "取消静音",
+      "action": "action.system.VolumeUnmute"
+    },
+    {
+      "command": "调亮屏幕",
+      "action": "action.system.BrightnessUp"
+    },
+    {
+      "command": "调暗屏幕",
+      "action": "action.system.BrightnessDown"
+    },
+    {
+      "command": "最大亮度",
+      "action": "action.system.BrightnessMax"
+    },
+    {
+      "command": "最小亮度",
+      "action": "action.system.BrightnessMin"
+    },
+    {
+      "command": "打开屏幕镜像",
+      "action": "action.system.OpenMirrorLink"
+    },
+    {
+      "command": "关闭屏幕镜像",
+      "action": "action.system.CloseMirrorLink"
+    },
+    {
+      "command": "打开CarPlay",
+      "action": "action.system.OpenCarPlay"
+    },
+    {
+      "command": "关闭CarPlay",
+      "action": "action.system.CloseCarPlay"
+    },
+    {
+      "command": "打开浏览器",
+      "action": "action.system.OpenTheBrowser"
+    },
+    {
+      "command": "关闭浏览器",
+      "action": "action.system.CloseTheBrowser"
+    },
+    {
+      "command": "返回",
+      "action": "action.system.GoBack"
+    },
+    {
+      "command": "返回主页",
+      "action": "action.system.BackToHome"
+    },
+    {
+      "command": "打开音乐",
+      "action": "action.media.OpenTheMusic"
+    },
+    {
+      "command": "关闭音乐",
+      "action": "action.media.CloseTheMusic"
+    },
+    {
+      "command": "播放音乐",
+      "action": "action.media.PlayMusic"
+    },
+    {
+      "command": "打开在线音乐",
+      "action": "action.media.OpenTheOnlineMusic"
+    },
+    {
+      "command": "关闭在线音乐",
+      "action": "action.media.CloseTheOnlineMusic"
+    },
+    {
+      "command": "打开收音机",
+      "action": "action.media.OpenTheRadio"
+    },
+    {
+      "command": "关闭收音机",
+      "action": "action.media.CloseTheRadio"
+    },
+    {
+      "command": "打开视频",
+      "action": "action.media.OpenTheVideo"
+    },
+    {
+      "command": "关闭视频",
+      "action": "action.media.CloseTheVideo"
+    },
+    {
+      "command": "播放视频",
+      "action": "action.media.PlayVideo"
+    },
+    {
+      "command": "打开电视",
+      "action": "action.media.OpenTheTV"
+    },
+    {
+      "command": "关闭电视",
+      "action": "action.media.CloseTheTV"
+    },
+    {
+      "command": "打开EQ",
+      "action": "action.media.OpenTheEQ"
+    },
+    {
+      "command": "关闭EQ",
+      "action": "action.media.CloseTheEQ"
+    },
+    {
+      "command": "暂停播放",
+      "action": "action.media.PausePlayBack"
+    },
+    {
+      "command": "继续播放",
+      "action": "action.media.ContinuePlaying"
+    },
+    {
+      "command": "下一首",
+      "action": "action.media.NextTrack"
+    },
+    {
+      "command": "上一首",
+      "action": "action.media.PreviousTrack"
+    },
+    {
+      "command": "下一台",
+      "action": "action.media.NextStation"
+    },
+    {
+      "command": "上一台",
+      "action": "action.media.PreviousStation"
+    },
+    {
+      "command": "向前搜索",
+      "action": "action.media.searchForward"
+    },
+    {
+      "command": "向后搜索",
+      "action": "action.media.SearchBack"
+    },
+    {
+      "command": "搜索广播电台",
+      "action": "action.media.SearchRadioStation"
+    },
+    {
+      "command": "切换模式",
+      "action": "action.media.SwitchMode"
+    },
+    {
+      "command": "打开空调",
+      "action": "action.car.OpenTheAirConditioning"
+    },
+    {
+      "command": "关闭空调",
+      "action": "action.car.CloseTheAirConditioning"
+    },
+    {
+      "command": "调高温度",
+      "action": "action.car.TemperatureUp"
+    },
+    {
+      "command": "调低温度",
+      "action": "action.car.TemperatureDown"
+    },
+    {
+      "command": "最高温度",
+      "action": "action.car.TemperatureMax"
+    },
+    {
+      "command": "最低温度",
+      "action": "action.car.TemperatureMin"
+    },
+    {
+      "command": "调高风速",
+      "action": "action.car.WindSpeedUp"
+    },
+    {
+      "command": "调低风速",
+      "action": "action.car.WindSpeedDown"
+    },
+    {
+      "command": "最大风速",
+      "action": "action.car.WindSpeedMax"
+    },
+    {
+      "command": "最小风速",
+      "action": "action.car.WindSpeedMin"
+    },
+    {
+      "command": "打开AC",
+      "action": "action.car.ACTurnOn"
+    },
+    {
+      "command": "关闭AC",
+      "action": "action.car.ACTurnOff"
+    },
+    {
+      "command": "打开内循环",
+      "action": "action.car.OpenInnerCirculation"
+    },
+    {
+      "command": "关闭内循环",
+      "action": "action.car.CloseInnerCirculation"
+    },
+    {
+      "command": "打开AUX",
+      "action": "action.car.OpenAuxiliary"
+    },
+    {
+      "command": "关闭AUX",
+      "action": "action.car.CloseAuxiliary"
+    },
+    {
+      "command": "打开DVR",
+      "action": "action.car.OpenDVR"
+    },
+    {
+      "command": "关闭DVR",
+      "action": "action.car.CloseDVR"
+    },
+    {
+      "command": "打开左录",
+      "action": "action.car.OpenLeftCamera"
+    },
+    {
+      "command": "打开右录",
+      "action": "action.car.OpenRightCamera"
+    },
+    {
+      "command": "打开前录",
+      "action": "action.car.OpenFrontCamera"
+    },
+    {
+      "command": "打开后录",
+      "action": "action.car.OpenRearCamera"
+    },
+    {
+      "command": "打开全景",
+      "action": "action.car.OpenPanorama"
+    }
+  ]
+}
+
+

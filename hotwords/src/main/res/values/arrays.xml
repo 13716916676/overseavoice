@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="commands">
+        <item>@string/commands_item_system_control</item>
+        <item>@string/commands_item_media_control</item>
+        <item>@string/commands_item_navi_control</item>
+        <item>@string/commands_item_car_control</item>
+    </string-array>
+    <string-array name="commands_detail">
+        <item>@string/commands_item_system_control_detail</item>
+        <item>@string/commands_item_media_control_detail</item>
+        <item>@string/commands_item_navi_control_detail</item>
+        <item>@string/commands_item_car_control_detail</item>
+    </string-array>
+</resources>

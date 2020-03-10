@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Hotwords</string>
+
+    <string name="main_tab_about">Über</string>
+    <string name="main_tab_commands">Sprachbefehle</string>
+    <string name="main_tab_settings">Spracheinstellungen</string>
+    <string name="main_title">AISpeech Lyra-Einstellungen</string>
+
+    <string name="settings_item_wakeup">Aufwachen</string>
+    <string name="settings_item_wakeup_tips">Beim Öffnen können Sprachbefehle direkt verwendet werden. Im geschlossenen Zustand sind Sprachbefehle deaktiviert.</string>
+    <string name="settings_item_language">Sprache</string>
+    <string name="settings_item_language_tips">Wenn es geändert wird, werden die Sprache der Benutzeroberfläche und die Sprache der Sprachinteraktion gemeinsam geändert.</string>
+
+    <string name="about_desc">AISpeech Lyra Intelligentes Sprachsteuersystem</string>
+    <string name="about_terms"><u>Nutzungsbedingungen</u></string>
+    <string name="about_privacy"><u>Privatsphäre</u></string>
+    <string name="about_copyright">Copyright © 2007-%s AISpeech Alle Rechte vorbehalten</string>
+
+    <string name="dialog_title">Sprache wählen</string>
+    <string name="dialog_btn_confirm">Bestätigen</string>
+    <string name="dialog_btn_cancel">Stornieren</string>
+
+    <string name="commands_item_system_control">Systemkontrolle</string>
+    <string name="commands_item_media_control">Mediensteuerung</string>
+    <string name="commands_item_navi_control">Navi-Steuerung</string>
+    <string name="commands_item_car_control">Autokontrolle</string>
+
+    <string name="commands_item_system_control_detail">Bildschirm einschalten , Bildschirm an,
+\nBildschirm ausschalten , Bildschirm aus,
+\nWiFi anschalten , WiFi an, WiFi ausschalten , WiFi aus,
+\nBluetooth einschalten , Bluetooth an,
+\nLautstärke erhöhen, Lautstärke senken,
+\nLautstärke stumm schalten , Stumm schalten, Stummschaltung beenden , Stummschaltung aus,
+\nBildschirm aufhellen , Bildschirm heller machen, Bildschirm dunkler machen,
+\nZur Startseite,
+\nHotspot anschalten , Hotspot an, Hotspot ausschalten , Hotspot aus,
+\nYoutube öffnen, App Store öffnen</string>
+    <string name="commands_item_media_control_detail">Musik öffnen , Musik an, Musik abspielen, Musik ausschalten,
+\nRadio einschalten , Radio an,
+\nVideo öffnen , Video an, Video abspielen, Video ausschalten,
+\nMusik anhalten, Nächstes Lied,
+\nVorheriges Lied</string>
+    <string name="commands_item_navi_control_detail">Navigation öffnen, Navigation anschalten, Navigation schließen , Navigation ausschalten</string>
+    <string name="commands_item_car_control_detail">AUX öffnen, AUX schließen,
+\nFoto machen,
+\nSystem herunterfahren , Assistent ausschalten,
+\nVideoaufnahme starten, Videoaufnahme beenden,
+\nFahrschutz Modus,
+\nCD abspielen, DVD abspielen</string>
+
+
+</resources>

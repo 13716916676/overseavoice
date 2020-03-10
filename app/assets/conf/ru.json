@@ -1,0 +1,317 @@
+{
+  "vad": {
+    "res": "vad_aicar_v0.15.bin",
+    "enable": false,
+    "pauseTime": 0
+  },
+  "audio": {
+    "srcPath": "/sdcard/lyra/audio_ru",
+    "customFeed": true,
+    "feedSize": 6400,
+    "feedIntervalTime": 100
+  },
+  "res": "ebnfr_russian_v03.1.bin",
+  "thresh": 0.62,
+  "words": [
+    {
+      "commandTips": "включить навигацию",
+      "action": "action.navi.TurnOnNavigation"
+    },
+    {
+      "commandTips": "выключить навигацию",
+      "action": "action.navi.TurnOffNavigation"
+    },
+    {
+      "commandTips": "Включить экран",
+      "action": "action.system.ScreenOn"
+    },
+    {
+      "commandTips": "Выключить экран",
+      "action": "action.system.ScreenOff"
+    },
+    {
+      "commandTips": "Включить Wifi",
+      "action": "action.system.OpenTheWiFi"
+    },
+    {
+      "commandTips": "Выключить Wifi",
+      "action": "action.system.CloseTheWiFi"
+    },
+    {
+      "commandTips": "включить Bluetooth",
+      "action": "action.system.OpenTheBluetooth"
+    },
+    {
+      "commandTips": "Закрыть Bluetooth",
+      "action": "action.system.CloseTheBluetooth"
+    },
+    {
+      "commandTips": "увеличение громкости",
+      "action": "action.system.VolumeUp"
+    },
+    {
+      "commandTips": "уменьшение громкости",
+      "action": "action.system.VolumeDown"
+    },
+    {
+      "commandTips": "отключение громкости",
+      "action": "action.system.VolumeMute"
+    },
+    {
+      "commandTips": "Отключить бесшумный режим",
+      "action": "action.system.VolumeUnmute"
+    },
+    {
+      "commandTips": "увеличение яркости",
+      "action": "action.system.BrightnessUp"
+    },
+    {
+      "commandTips": "уменьшение яркости",
+      "action": "action.system.BrightnessDown"
+    },
+    {
+      "commandTips": "Держать яркость на максимуме",
+      "action": "action.system.BrightnessMax"
+    },
+    {
+      "commandTips": "Держать яркость на минимуме",
+      "action": "action.system.BrightnessMin"
+    },
+    {
+      "commandTips": "открыть зеркальную ссылку",
+      "action": "action.system.OpenMirrorLink"
+    },
+    {
+      "commandTips": "Закрыть зеркальную ссылку",
+      "action": "action.system.CloseMirrorLink"
+    },
+    {
+      "commandTips": "Открыть CarPlay",
+      "action": "action.system.OpenCarPlay"
+    },
+    {
+      "commandTips": "Закрыть CarPlay",
+      "action": "action.system.CloseCarPlay"
+    },
+    {
+      "commandTips": "Открыть браузер",
+      "action": "action.system.OpenTheBrowser"
+    },
+    {
+      "commandTips": "Закрыть браузер",
+      "action": "action.system.CloseTheBrowser"
+    },
+    {
+      "commandTips": "Вернуться назад",
+      "action": "action.system.GoBack"
+    },
+    {
+      "commandTips": "вернуться на главную страницу",
+      "action": "action.system.BackToHome"
+    },
+    {
+      "commandTips": "включить музыку",
+      "action": "action.media.OpenTheMusic"
+    },
+    {
+      "commandTips": "выключить музыку",
+      "action": "action.media.CloseTheMusic"
+    },
+    {
+      "commandTips": "воспроизводить музыку",
+      "action": "action.media.PlayMusic"
+    },
+    {
+      "commandTips": "Открыть онлайн музыку",
+      "action": "action.media.OpenTheOnlineMusic"
+    },
+    {
+      "commandTips": "Закрыть онлайн музыку",
+      "action": "action.media.CloseTheOnlineMusic"
+    },
+    {
+      "commandTips": "включить радио",
+      "action": "action.media.OpenTheRadio"
+    },
+    {
+      "commandTips": "Закрыть радио",
+      "action": "action.media.CloseTheRadio"
+    },
+    {
+      "commandTips": "включить видео",
+      "action": "action.media.OpenTheVideo"
+    },
+    {
+      "commandTips": "выключить видео",
+      "action": "action.media.CloseTheVideo"
+    },
+    {
+      "commandTips": "воспроизводить видео",
+      "action": "action.media.PlayVideo"
+    },
+    {
+      "commandTips": "Включить телевизор",
+      "action": "action.media.OpenTheTV"
+    },
+    {
+      "commandTips": "Выключить телевизор",
+      "action": "action.media.CloseTheTV"
+    },
+    {
+      "commandTips": "Включить переключатель EQ",
+      "action": "action.media.OpenTheEQ"
+    },
+    {
+      "commandTips": "Выключить переключатель EQ",
+      "action": "action.media.CloseTheEQ"
+    },
+    {
+      "commandTips": "приостановить музыку",
+      "action": "action.media.PausePlayBack"
+    },
+    {
+      "commandTips": "Продолжить передачу",
+      "action": "action.media.ContinuePlaying"
+    },
+    {
+      "commandTips": "следующая песня",
+      "action": "action.media.NextTrack"
+    },
+    {
+      "commandTips": "предыдущая песня",
+      "action": "action.media.PreviousTrack"
+    },
+    {
+      "commandTips": "Повернуть на следующую станцию",
+      "action": "action.media.NextStation"
+    },
+    {
+      "commandTips": "Повернуть на предыдущую станцию",
+      "action": "action.media.PreviousStation"
+    },
+    {
+      "commandTips": "Поиск вперед",
+      "action": "action.media.searchForward"
+    },
+    {
+      "commandTips": "Поиск назад",
+      "action": "action.media.SearchBack"
+    },
+    {
+      "commandTips": "Поиск радиостанции",
+      "action": "action.media.SearchRadioStation"
+    },
+    {
+      "commandTips": "Режим переключения",
+      "action": "action.media.SwitchMode"
+    },
+    {
+      "commandTips": "Открыть кондиционер",
+      "action": "action.car.OpenTheAirConditioning"
+    },
+    {
+      "commandTips": "Закрыть кондиционер",
+      "action": "action.car.CloseTheAirConditioning"
+    },
+    {
+      "commandTips": "Повысить температуру",
+      "action": "action.car.TemperatureUp"
+    },
+    {
+      "commandTips": "Уменьшить температуру",
+      "action": "action.car.TemperatureDown"
+    },
+    {
+      "commandTips": "Установить самую высокую температуру",
+      "action": "action.car.TemperatureMax"
+    },
+    {
+      "commandTips": "Установить самую низшую температуру",
+      "action": "action.car.TemperatureMin"
+    },
+    {
+      "commandTips": "Увеличить скорость ветра",
+      "action": "action.car.WindSpeedUp"
+    },
+    {
+      "commandTips": "Уменьшить скорость ветра",
+      "action": "action.car.WindSpeedDown"
+    },
+    {
+      "commandTips": "Максимальная скорость ветра",
+      "action": "action.car.WindSpeedMax"
+    },
+    {
+      "commandTips": "Минимальная скорость ветра",
+      "action": "action.car.WindSpeedMin"
+    },
+    {
+      "commandTips": "Включить переключатель АС",
+      "action": "action.car.ACTurnOn"
+    },
+    {
+      "commandTips": "Выключить переключатель АС",
+      "action": "action.car.ACTurnOff"
+    },
+    {
+      "commandTips": "Открыть внутреннюю циркуляцию",
+      "action": "action.car.OpenInnerCirculation"
+    },
+    {
+      "commandTips": "Закрыть внутреннюю циркуляцию",
+      "action": "action.car.CloseInnerCirculation"
+    },
+    {
+      "commandTips": "AUX включен",
+      "action": "action.car.OpenAuxiliary"
+    },
+    {
+      "commandTips": "AUX выключен",
+      "action": "action.car.CloseAuxiliary"
+    },
+    {
+      "commandTips": "Открыть DVR",
+      "action": "action.car.OpenDVR"
+    },
+    {
+      "commandTips": "Закрыть DVR",
+      "action": "action.car.CloseDVR"
+    },
+    {
+      "commandTips": "Открыть левую камеру",
+      "action": "action.car.OpenLeftCamera"
+    },
+    {
+      "commandTips": "Открыть правую камеру",
+      "action": "action.car.OpenRightCamera"
+    },
+    {
+      "commandTips": "Открыть переднюю камеру",
+      "action": "action.car.OpenFrontCamera"
+    },
+    {
+      "commandTips": "Открыть заднюю камеру",
+      "action": "action.car.OpenRearCamera"
+    },
+    {
+      "commandTips": "Открыть панораму",
+      "action": "action.car.OpenPanorama"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

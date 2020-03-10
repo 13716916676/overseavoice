@@ -1,0 +1,163 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+ext {
+    date = { ->
+        def formattedDate = new Date().format('yyyyMMdd')
+        return formattedDate
+    }
+
+    android = [
+            // 每次输出版本，同步修改versionCode和versionName
+            versionCode      : 113,
+            versionName      : "V1.1.3-${date}",
+
+            // 开发环境
+            minSdkVersion    : 19,
+            //必须小于 29，不然 sdcard 文件读取受限，参考： https://developer.android.com/training/data-storage/files/external-scoped
+            targetSdkVersion : 28,
+            compileSdkVersion: 29,
+            buildToolsVersion: "29.0.2",
+//            supportLibVersion         : "28.0.0",
+            androidXVersion  : "1.0.0"
+    ]
+}
+
+android {
+    def androidEnv = project.ext.android
+    compileSdkVersion androidEnv.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion androidEnv.minSdkVersion
+        targetSdkVersion androidEnv.targetSdkVersion
+        versionCode androidEnv.versionCode
+        versionName androidEnv.versionName
+
+        applicationId "com.aispeech.hotwords"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi'//, 'arm64-v8a' //, 'x86','x86_64','armeabi-v7a',
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    flavorDimensions "lite"
+    productFlavors {
+
+        demo {
+            dimension "lite"
+            //请勿使用以下 apiKey作为生产，必须替换在 dui 创建的产品下申请的 apiKey。当前 demo 有数量限制以及与签名和包名相关
+            // 具体授权请参考：http://car.aispeech.com/duilite/docs/duilite/chu-shi-hua/shou-quan.html
+            buildConfigField 'String', 'apiKey', '"895a9b1dcaaae6ba0a37b5ea5dc28f90"'
+            buildConfigField 'String', 'productId', '"278578188"'
+            buildConfigField 'String', 'productKey', '"5b4bb9cab8d2daf36c70446d4c45aeab"'
+            buildConfigField 'String', 'productSecret', '"4517bf18855201f9868012675a536e31"'
+
+            buildConfigField "String[]", "languages",
+                    'new String[]{' +
+                            '"中文"' + ',' +
+                            '"English(United States)"' + ',' +
+                            '"русский"' + ',' + //俄语
+                            '"Português"' + ',' + //葡萄牙语
+                            '"Espanol"' + ',' + //西班牙语
+                            '"Deutsch"' + ',' + //德语
+                            '"日本語"' + ',' +
+                            '"Tiếng Việt"' + ',' + //越南语
+                            '"ภาษาไทย"' + //泰语
+                            '}'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    // 修改apk 输出的路径和文件名
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            if (variant.buildType.name == "release") {
+                def flavor = variant.name
+                println "flavor=${flavor}"
+
+                variant.getPackageApplicationProvider().get().outputDirectory = new File("@dest")
+                def apkanme = "hotwords-${flavor}-${variant.versionName}.apk"
+                outputFileName = apkanme
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'me.jessyan:autosize:1.1.2'
+    implementation 'com.blankj:utilcodex:1.25.9'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation 'com.squareup.okio:okio:1.15.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "androidx.core:core-ktx:1.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+task pack() {
+    gradle.taskGraph.whenReady {
+        def task = it.getAllTasks().last()
+        if (!(task.name.startsWith("assemble") && (task.name.endsWith("Debug") || task.name.endsWith("Release")))) return false
+
+        println "beforeExecute, task.name = ${task.name}"
+
+        def currentFlavor = task.name.substring("assemble".length())
+        currentFlavor = currentFlavor.replace("Debug", "").replace("Release", "").toLowerCase()
+
+        println "task.name = " + task.name + ", currentFlavor = " + currentFlavor
+
+        def srcConfPath = "@dest/conf"
+        def assetsConfPath = 'src/main/assets/conf'
+
+        //拷贝配置文件到 assets 目录
+        delete 'src/main/assets/conf'
+        copy {
+            from srcConfPath
+            into assetsConfPath
+            println "copy: ${srcConfPath}"
+        }
+
+        delete fileTree("@dest").matching {
+            include "*.apk"
+
+            println "clean: apk"
+        }
+
+    }
+}

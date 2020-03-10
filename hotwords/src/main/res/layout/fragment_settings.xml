@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_wakeup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_wakeup"
+                android:layout_alignBaseline="@+id/sw_wakeup"
+                style="@style/common_text_title"
+                android:text="@string/settings_item_wakeup" />
+
+            <TextView
+                style="@style/common_text_content"
+                android:layout_below="@+id/tv_wakeup"
+                android:layout_marginTop="8dp"
+                android:text="@string/settings_item_wakeup_tips" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_wakeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="32dp"
+                android:thumb="@drawable/selector_switch_thumb"
+                app:track="@drawable/selector_switch_track"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <View style="@style/common_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_language"
+                style="@style/common_text_title"
+                android:text="@string/settings_item_language" />
+
+
+            <TextView
+                android:id="@+id/tv_language_choose"
+                style="@style/common_text_title"
+                android:layout_alignTop="@+id/tv_language"
+                android:layout_toLeftOf="@+id/iv_arrow"
+                android:text="English(United States)"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                style="@style/common_arrow"
+                android:layout_marginRight="16dp"
+                android:layout_alignTop="@+id/tv_language_choose"
+                android:layout_alignBottom="@+id/tv_language_choose"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                style="@style/common_text_content"
+                android:layout_below="@+id/tv_language"
+                android:layout_marginTop="8dp"
+                android:text="@string/settings_item_language_tips" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

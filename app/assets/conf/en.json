@@ -1,0 +1,374 @@
+{
+  "vad": {
+    "res": "vad_aicar_v0.15.bin",
+    "enable": true,
+    "pauseTime": 0
+  },
+  "audio": {
+    "srcPath": "/sdcard/lyra/audio",
+    "customFeed": false,
+    "feedSize": 6400,
+    "feedIntervalTime": 100
+  },
+  "res": "ebnfr.en_wakeup.bin",
+  "thresh": 0.54,
+  "words": [
+    {
+      "command": "TURN ON NAVIGATION",
+      "commandTips": "turn on navigation",
+      "action": "action.navi.TurnOnNavigation"
+    },
+    {
+      "command": "TURN OFF NAVIGATION",
+      "commandTips": "turn off navigation",
+      "action": "action.navi.TurnOffNavigation"
+    },
+    {
+      "command": "SCREEN ON",
+      "commandTips": "screen on",
+      "action": "action.system.ScreenOn"
+    },
+    {
+      "command": "SCREEN OFF",
+      "commandTips": "screen off",
+      "action": "action.system.ScreenOff"
+    },
+    {
+      "command": "OPEN THE WIFI",
+      "commandTips": "open the wifi",
+      "action": "action.system.OpenTheWiFi"
+    },
+    {
+      "command": "CLOSE THE WIFI",
+      "commandTips": "close the wifi",
+      "action": "action.system.CloseTheWiFi"
+    },
+    {
+      "command": "OPEN THE BLUETOOTH",
+      "commandTips": "open the bluetooth",
+      "action": "action.system.OpenTheBluetooth"
+    },
+    {
+      "command": "CLOSE THE BLUETOOTH",
+      "commandTips": "close the bluetooth",
+      "action": "action.system.CloseTheBluetooth"
+    },
+    {
+      "command": "VOLUME UP",
+      "commandTips": "volume up",
+      "action": "action.system.VolumeUp"
+    },
+    {
+      "command": "VOLUME DOWN",
+      "commandTips": "volume down",
+      "action": "action.system.VolumeDown"
+    },
+    {
+      "command": "VOLUME MUTE",
+      "commandTips": "volume mute",
+      "action": "action.system.VolumeMute"
+    },
+    {
+      "command": "VOLUME UN MUTE",
+      "commandTips": "volume unmute",
+      "action": "action.system.VolumeUnmute"
+    },
+    {
+      "command": "TURN UP BRIGHTNESS",
+      "commandTips": "turn up brightness",
+      "action": "action.system.BrightnessUp"
+    },
+    {
+      "command": "TURN DOWN BRIGHTNESS",
+      "commandTips": "turn down brightness",
+      "action": "action.system.BrightnessDown"
+    },
+    {
+      "command": "BRIGHTNESS SET TO MAXIMUM",
+      "commandTips": "brightness set to maximum",
+      "action": "action.system.BrightnessMax"
+    },
+    {
+      "command": "KEEP THE BRIGHTNESS TO A MINIMUM",
+      "commandTips": "keep the brightness to minimum",
+      "action": "action.system.BrightnessMin"
+    },
+    {
+      "command": "OPEN MIRROR LINK",
+      "commandTips": "open mirror link",
+      "action": "action.system.OpenMirrorLink"
+    },
+    {
+      "command": "CLOSE MIRROR LINK",
+      "commandTips": "close mirror link",
+      "action": "action.system.CloseMirrorLink"
+    },
+    {
+      "command": "OPEN CAR PLAY",
+      "commandTips": "open CarPlay",
+      "action": "action.system.OpenCarPlay"
+    },
+    {
+      "command": "CLOSE CAR PLAY",
+      "commandTips": "close CarPlay",
+      "action": "action.system.CloseCarPlay"
+    },
+    {
+      "command": "OPEN THE BROWSER",
+      "commandTips": "open the browser",
+      "action": "action.system.OpenTheBrowser"
+    },
+    {
+      "command": "CLOSE THE BROWSER",
+      "commandTips": "close the browser",
+      "action": "action.system.CloseTheBrowser"
+    },
+    {
+      "command": "GO BACK",
+      "commandTips": "go back",
+      "action": "action.system.GoBack"
+    },
+    {
+      "command": "BACK TO HOME",
+      "commandTips": "back to home",
+      "action": "action.system.BackToHome"
+    },
+    {
+      "command": "OPEN THE MUSIC",
+      "commandTips": "open the music",
+      "action": "action.media.OpenTheMusic"
+    },
+    {
+      "command": "CLOSE THE MUSIC",
+      "commandTips": "close the music",
+      "action": "action.media.CloseTheMusic"
+    },
+    {
+      "command": "PLAY MUSIC",
+      "commandTips": "play music",
+      "action": "action.media.PlayMusic"
+    },
+    {
+      "command": "OPEN THE ONLINE MUSIC",
+      "commandTips": "open the online music",
+      "action": "action.media.OpenTheOnlineMusic"
+    },
+    {
+      "command": "CLOSE THE ONLINE MUSIC",
+      "commandTips": "close the online music",
+      "action": "action.media.CloseTheOnlineMusic"
+    },
+    {
+      "command": "OPEN THE RADIO",
+      "commandTips": "open the radio",
+      "action": "action.media.OpenTheRadio"
+    },
+    {
+      "command": "CLOSE THE RADIO",
+      "commandTips": "close the radio",
+      "action": "action.media.CloseTheRadio"
+    },
+    {
+      "command": "OPEN THE VIDEO",
+      "commandTips": "open the video",
+      "action": "action.media.OpenTheVideo"
+    },
+    {
+      "command": "CLOSE THE VIDEO",
+      "commandTips": "close the video",
+      "action": "action.media.CloseTheVideo"
+    },
+    {
+      "command": "PLAY VIDEO",
+      "commandTips": "play video",
+      "action": "action.media.PlayVideo"
+    },
+    {
+      "command": "OPEN THE T V",
+      "commandTips": "open the TV",
+      "action": "action.media.OpenTheTV"
+    },
+    {
+      "command": "CLOSE THE T V",
+      "commandTips": "close the TV",
+      "action": "action.media.CloseTheTV"
+    },
+    {
+      "command": "OPEN THE E Q",
+      "commandTips": "open the EQ",
+      "action": "action.media.OpenTheEQ"
+    },
+    {
+      "command": "CLOSE THE E Q",
+      "commandTips": "close the EQ",
+      "action": "action.media.CloseTheEQ"
+    },
+    {
+      "command": "PAUSE PLAY BACK",
+      "commandTips": "pause play back",
+      "action": "action.media.PausePlayBack"
+    },
+    {
+      "command": "CONTINUE PLAYING",
+      "commandTips": "continue playing",
+      "action": "action.media.ContinuePlaying"
+    },
+    {
+      "command": "NEXT TRACK",
+      "commandTips": "next track",
+      "action": "action.media.NextTrack"
+    },
+    {
+      "command": "PREVIOUS TRACK",
+      "commandTips": "previous track",
+      "action": "action.media.PreviousTrack"
+    },
+    {
+      "command": "TURN IN NEXT STATION",
+      "commandTips": "turn in next station",
+      "action": "action.media.NextStation"
+    },
+    {
+      "command": "TURN IN PREVIOUS STATION",
+      "commandTips": "turn in previous station",
+      "action": "action.media.PreviousStation"
+    },
+    {
+      "command": "SEARCH FORWARD",
+      "commandTips": "search forward",
+      "action": "action.media.searchForward"
+    },
+    {
+      "command": "SEARCH BACK",
+      "commandTips": "search back",
+      "action": "action.media.SearchBack"
+    },
+    {
+      "command": "SEARCH RADIO STATION",
+      "commandTips": "search radio station",
+      "action": "action.media.SearchRadioStation"
+    },
+    {
+      "command": "SWITCH MODE",
+      "commandTips": "switch mode",
+      "action": "action.media.SwitchMode"
+    },
+    {
+      "command": "OPEN THE AIR CONDITIONING",
+      "commandTips": "open the air-conditioning",
+      "action": "action.car.OpenTheAirConditioning"
+    },
+    {
+      "command": "CLOSE THE AIR CONDITIONING",
+      "commandTips": "close the air-conditioning",
+      "action": "action.car.CloseTheAirConditioning"
+    },
+    {
+      "command": "TURN UP THE TEMPERATURE",
+      "commandTips": "turn up the temperature",
+      "action": "action.car.TemperatureUp"
+    },
+    {
+      "command": "TURN DOWN THE TEMPERATURE",
+      "commandTips": "turn down the temperature",
+      "action": "action.car.TemperatureDown"
+    },
+    {
+      "command": "SET THE TEMPERATURE TO THE HIGHEST",
+      "commandTips": "set the temperature to the highest",
+      "action": "action.car.TemperatureMax"
+    },
+    {
+      "command": "KEEP THE TEMPERATURE TO A MINIMUM",
+      "commandTips": "keep the temperature to the minimum",
+      "action": "action.car.TemperatureMin"
+    },
+    {
+      "command": "INCREASING THE WIND SPEED",
+      "commandTips": "increasing the wind speed",
+      "action": "action.car.WindSpeedUp"
+    },
+    {
+      "command": "DECREASING THE WIND SPEED",
+      "commandTips": "decreasing the wind speed",
+      "action": "action.car.WindSpeedDown"
+    },
+    {
+      "command": "MAXIMUM WIND SPEED",
+      "commandTips": "maximum wind speed",
+      "action": "action.car.WindSpeedMax"
+    },
+    {
+      "command": "MINIMUM WIND SPEED",
+      "commandTips": "minimum wind speed",
+      "action": "action.car.WindSpeedMin"
+    },
+    {
+      "command": "TURN ON AC SWITCH",
+      "commandTips": "turn on AC switch",
+      "action": "action.car.ACTurnOn"
+    },
+    {
+      "command": "TURN OFF AC SWITCH",
+      "commandTips": "turn off AC switch",
+      "action": "action.car.ACTurnOff"
+    },
+    {
+      "command": "OPEN INNER CIRCULATION",
+      "commandTips": "open inner circulation",
+      "action": "action.car.OpenInnerCirculation"
+    },
+    {
+      "command": "CLOSE INNER CIRCULATION",
+      "commandTips": "close inner circulation",
+      "action": "action.car.CloseInnerCirculation"
+    },
+    {
+      "command": "OPEN THE AUXILIARY",
+      "commandTips": "open auxiliary",
+      "action": "action.car.OpenAuxiliary"
+    },
+    {
+      "command": "CLOSE THE AUXILIARY",
+      "commandTips": "close auxiliary",
+      "action": "action.car.CloseAuxiliary"
+    },
+    {
+      "command": "OPEN D V R",
+      "commandTips": "open DVR",
+      "action": "action.car.OpenDVR"
+    },
+    {
+      "command": "CLOSE D V R",
+      "commandTips": "close DVR",
+      "action": "action.car.CloseDVR"
+    },
+    {
+      "command": "OPEN LEFT CAMERA",
+      "commandTips": "open left camera",
+      "action": "action.car.OpenLeftCamera"
+    },
+    {
+      "command": "OPEN RIGHT CAMERA",
+      "commandTips": "open right camera",
+      "action": "action.car.OpenRightCamera"
+    },
+    {
+      "command": "OPEN FRONT CAMERA",
+      "commandTips": "open front camera",
+      "action": "action.car.OpenFrontCamera"
+    },
+    {
+      "command": "OPEN REAR CAMERA",
+      "commandTips": "open rear camera",
+      "action": "action.car.OpenRearCamera"
+    },
+    {
+      "command": "OPEN PANORAMA",
+      "commandTips": "open panorama",
+      "action": "action.car.OpenPanorama"
+    }
+  ]
+}
+
+

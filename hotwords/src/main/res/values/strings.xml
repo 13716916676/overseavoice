@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">热词</string>
+
+    <string name="main_tab_about">关于</string>
+    <string name="main_tab_commands">语音指令</string>
+    <string name="main_tab_settings">语音设置</string>
+    <string name="main_title">思必驰天琴设置</string>
+
+    <string name="settings_item_wakeup">唤醒</string>
+    <string name="settings_item_wakeup_tips">开启时，语音指令能直接使用。关闭后，语音指令失效。</string>
+    <string name="settings_item_language">语言</string>
+    <string name="settings_item_language_tips">切换语种后，界面显示语和语音交互语言会一起切换。</string>
+
+    <string name="about_desc">思必驰天琴智能语音驾驶系统</string>
+    <string name="about_terms"><u>条款</u></string>
+    <string name="about_privacy"><u>隐私</u></string>
+    <string name="about_copyright">著作权© 2007-%s 思必驰保留所有权利</string>
+
+    <string name="dialog_title">选择语言</string>
+    <string name="dialog_btn_confirm">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+
+    <string name="commands_item_system_control">系统控制</string>
+    <string name="commands_item_media_control">多媒体控制</string>
+    <string name="commands_item_navi_control">导航控制</string>
+    <string name="commands_item_car_control">车身控制</string>
+
+    <string name="commands_item_system_control_detail">打开屏幕, 关闭屏幕,
+            \n打开wifi, 关闭wifi,
+            \n打开蓝牙, 关闭蓝牙,
+            \n增大音量, 调小音量,
+            \n静音, 取消静音,
+            \n调亮屏幕, 调暗屏幕,
+            \n最大亮度, 最小亮度,
+            \n打开屏幕镜像, 关闭屏幕镜像,
+            \n打开 CarPlay, 关闭 CarPlay,
+            \n打开浏览器, 关闭浏览器,
+            \n返回, 返回主页</string>
+    <string name="commands_item_media_control_detail">打开音乐, 播放音乐, 关闭音乐,
+            \n打开收音机, 关闭收音机,
+            \n打开视频, 播放视频, 关闭视频,
+            \n打开电视, 关闭电视,
+            \n打开 EQ（均衡器）, 关闭 EQ,
+            \n打开在线音乐, 关闭在线音乐,
+            \n暂停播放, 继续播放,
+            \n上一首, 下一首,
+            \n上一台（广播电台）, 下一台,
+            \n向前搜索（电台频道）, 向后搜索,
+            \n搜索广播电台,
+            \n切换模式</string>
+    <string name="commands_item_navi_control_detail">打开导航, 关闭导航</string>
+    <string name="commands_item_car_control_detail">打开空调, 关闭空调,
+            \n调高温度, 调低温度,
+            \n最高温度, 最低温度,
+            \n调高风速, 调低风速,
+            \n最大风速, 最小风速,
+            \n打开 AC, 关闭 AC,
+            \n打开内循环, 关闭内循环,
+            \n打开 AUX, 关闭 AUX,
+            \n打开 DVR, 关闭 DVR,
+            \n打开左录, 打开右录,
+            \n打开前录, 打开后录,
+            \n打开全景</string>
+
+
+</resources>

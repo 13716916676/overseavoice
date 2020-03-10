@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name" translatable="false">Hotwords</string>
+
+    <string name="main_tab_about">Acerca de</string>
+    <string name="main_tab_commands">Comando de voz</string>
+    <string name="main_tab_settings">Ajustes de voz</string>
+    <string name="main_title">Ajustes de AISpeech Lyra</string>
+
+    <string name="settings_item_wakeup">Despertar</string>
+    <string name="settings_item_wakeup_tips">"Cuando está activado, los comandos de voz se pueden usar directamente. Cuando está apagado, los comandos de voz están deshabilitados. "</string>
+    <string name="settings_item_language">Idioma</string>
+    <string name="settings_item_language_tips">"Después de cambiar el idioma, el idioma de visualización de la interfaz y el idioma de interacción de voz se cambiarán juntos. "</string>
+
+    <string name="about_desc">Sistema de conducción de voz inteligente Spitz Chinba</string>
+    <string name="about_terms"><u>Términos</u></string>
+    <string name="about_privacy"><u>Privacidad</u></string>
+    <string name="about_copyright">Derechos de autort© 2007-%s AISpeech Todos los derechos reservados</string>
+
+    <string name="dialog_title">Elegir idioma</string>
+    <string name="dialog_btn_confirm">Confirmar</string>
+    <string name="dialog_btn_cancel">Cancelar</string>
+
+    <string name="commands_item_system_control">Control del sistema</string>
+    <string name="commands_item_media_control">Control multimedia</string>
+    <string name="commands_item_navi_control">Control de navegación</string>
+    <string name="commands_item_car_control">Control del cuerpo</string>
+
+    <string name="commands_item_system_control_detail">encender la pantalla, apagar la pantalla,
+\nencender wifi, apagar wifi,
+\nencender Bluetooth,
+\nAumentar o volume, bajar el volumen,
+\ndesactivar el sonido, dejar de silenciar,
+\niluminar la pantalla, oscurecer la pantalla,
+\nvolver a la página de inicio,
+\niniciar zona activa, cerrar zona activa,
+\nabrir Youtube, Abrir PlayStore</string>
+    <string name="commands_item_media_control_detail">encender la música, reproducir música, apagar la música,
+\nencender la radio,
+\nencender el video, reproducir el video, apagar el video,
+\npausar la música, próxima música,
+\nanterior música, música anterior</string>
+    <string name="commands_item_navi_control_detail">encender la navegación, apagar la navegación</string>
+    <string name="commands_item_car_control_detail">encender AUX, apagar AUX,
+\nsacar una foto, apagar,
+\ncomenzar a grabar, dejar de grabar,
+\nprotección de conducción,
+\nreproducir CD, reproducir DVD</string>
+
+
+</resources>

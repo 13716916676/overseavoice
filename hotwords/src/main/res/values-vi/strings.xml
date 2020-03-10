@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">Hotwords</string>
+
+    <string name="main_tab_about">Về</string>
+    <string name="main_tab_commands">Điều khiển bằng giọng nói</string>
+    <string name="main_tab_settings">Cài đặt giọng nói</string>
+    <string name="main_title">"Cài đặt Lyra AISpeech      "</string>
+
+    <string name="settings_item_wakeup">Gọi chế độ</string>
+    <string name="settings_item_wakeup_tips">Khi mở chế độ điều khiển bằng giọng nói, lệnh thoại có thể được sử dụng trực tiếp. Khi đóng chế độ này, lệnh thoại bị vô hiệu hóa.</string>
+    <string name="settings_item_language">Ngôn ngữ</string>
+    <string name="settings_item_language_tips">Sau khi thay đổi ngôn ngữ, ngôn ngữ hiển thị và ngôn ngữ tương tác bằng giọng nói sẽ được thay đổi cùng nhau.</string>
+
+    <string name="about_desc">Hệ thống lái xe thông minh bằng giọng nói AISpeech Lyra</string>
+    <string name="about_terms"><u>Điều khoản</u></string>
+    <string name="about_privacy"><u>Cá nhân</u></string>
+    <string name="about_copyright">Bản quyền © 2007-%s AISpeech nắm giữ mọi bản quyền</string>
+
+    <string name="dialog_title">Chọn ngôn ngữ</string>
+    <string name="dialog_btn_confirm">Xác nhận</string>
+    <string name="dialog_btn_cancel">Hủy bỏ</string>
+
+    <string name="commands_item_system_control">Điều khiển hệ thống</string>
+    <string name="commands_item_media_control">"Điều khiển đa phương tiện "</string>
+    <string name="commands_item_navi_control">Điều khiển định vị</string>
+    <string name="commands_item_car_control">Điều khiển xe</string>
+
+    <string name="commands_item_system_control_detail">bật màn hình, tắt màn hình,
+            \nmở wifi, đóng wifi,
+            \nbật bluetooth, tắt bluetooth,
+            \ntăng âm lượng, giảm âm lượng,
+            \nchế độ im lặng, tắt chế độ im lặng,
+            \ntăng độ sáng màn hình, giảm độ sáng màn hình,
+            \nđộ sáng cao nhất,
+            \nđộ sáng thấp nhất,
+            \nmở gương chiếu hậu, đóng gương chiếu hậu,
+            \nmở CarPlay, đóng CarPlay,
+            \nmở trình duyệt web, đóng trình duyệt web,
+            \nquay lại, quay lại màn hình chính</string>
+    <string name="commands_item_media_control_detail">mở nhạc, phát nhạc, tắt nhạc,
+            \nmở radio, tắt radio,
+            \nmở video, phát video, tắt video,
+            \nmở TV, tắt TV,
+            \nbật EQ, tắt EQ,
+            \nmở nhạc trực tuyến, tắt nhạc trực tuyến,
+            \ntạm dừng phát nhạc, tiếp tục phát nhạc,
+            \nbài tiếp theo, bài trước,
+            \nkênh phía trước, kênh phía sau,
+            \ndò kênh tiếp theo, dò lại kênh,
+            \ntìm kiếm kênh phát thanh,
+            \nthay đổi chế độ</string>
+    <string name="commands_item_navi_control_detail">bật định vị, tắt định vị</string>
+    <string name="commands_item_car_control_detail">mở điều hòa, tắt điều hòa,
+            \ntăng nhiệt độ, giảm nhiệt độ,
+            \nnhiệt độ cao nhất,nhiệt độ thấp nhất,
+            \ntăng tốc độ gió, giảm tốc độ gió,
+            \ntốc độ gió tối đa, tốc độ gió tối thiểu,
+            \nmở chế độ làm lạnh, tắt chế độ làm lạnh,
+            \nmở chế độ lấy gió trong, tắt chế độ lấy gió trong,
+            \nmở phụ trợ, tắt phụ trợ,
+            \nmở DVR, đóng DVR,
+            \nmở camera trái, mở camera phải,
+            \nmở camera trước, mở camera sau,
+            \nmở camera toàn cảnh</string>
+
+
+</resources>

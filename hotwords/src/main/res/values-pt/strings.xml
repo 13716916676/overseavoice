@@ -1,0 +1,93 @@
+<resources>
+
+    <string name="app_name">Hotwords</string>
+
+    <string name="main_tab_about">Sobre</string>
+    <string name="main_tab_commands">Comandos de voz</string>
+    <string name="main_tab_settings">Configurações de voz</string>
+    <string name="main_title">Configurações do AISpeech Lyra</string>
+
+    <string name="settings_item_wakeup">Desperta</string>
+    <string name="settings_item_wakeup_tips">Quando aberto, os comandos de voz podem ser usados diretamente.Quando fechado, os comandos de voz são desativados.</string>
+    <string name="settings_item_language">Língua</string>
+    <string name="settings_item_language_tips">Se for alterado,a interface e o idioma da interação por voz serão alterados juntos.</string>
+
+    <string name="about_desc">Sistema de Condução por Voz Inteligente AISpeech Lyra</string>
+    <string name="about_terms"><u>Termos</u></string>
+    <string name="about_privacy"><u>Privacidade</u></string>
+    <string name="about_copyright">Direito autoral © 2007-%s AISpeech Todos os direitos reservados</string>
+
+    <string name="dialog_title">Escolha Língua</string>
+    <string name="dialog_btn_confirm">Confirme</string>
+    <string name="dialog_btn_cancel">Cancelar</string>
+
+    <string name="commands_item_system_control">Controle de sistema</string>
+    <string name="commands_item_media_control">Controle de mídia</string>
+    <string name="commands_item_navi_control">Controle de navegação</string>
+    <string name="commands_item_car_control">Controle de carro</string>
+
+    <string name="commands_item_system_control_detail">Abrir a tela, Fechar a tela,
+\nAbrir o WiFi, Conectar a WiFi,
+\nFechar o WiFi, Ligar o bluetooth,
+\nAumentar o volume, Baixar o volume,
+\nMudo de volume, Cancelar mudo,
+\nBrilho aumento, Aumentar brilho,
+\nBrilho baixo, Baixar brilho,
+\nPágina inicial,
+\nAbrir o hotspot, Fechar o hotspot,
+\nLigar o Youtube, Ligar a playstore</string>
+    <string name="commands_item_media_control_detail">Música aberta, Desligar música,
+\nTocar música, Parar a música,
+\nRádio ligado, Ligar a rádio,
+\nVídeo aberta, Vídeo aberto,
+\nLigar o vídeo,
+\nVídeo desligado, Encerrar vídeo,
+\nPróxima música, Música anterior</string>
+    <string name="commands_item_navi_control_detail">Ligar a navegação, Sair da navegação</string>
+    <string name="commands_item_car_control_detail">Aux aberta, Abrir aux,
+\nAux fechado, Fechar aux,
+\nTirar uma foto, Desligar,
+\nIniciar a gravação, Parar a gravação,
+\nTocar CD, Tocar DVD</string>
+
+    <!--    <string name="commands_item_system_control_detail">Abrir a tela, Fechar a tela,-->
+    <!--            \nAbrir o WiFi, Fechar o WiFi,-->
+    <!--            \nLigar o bluetooth,Fechar o bluetooth,-->
+    <!--            \nAumentar o volume, Baixar o volume,-->
+    <!--            \nMudo de volume, Cancelar mudo,-->
+    <!--            \nBrilho aumento, Brilho baixo,-->
+    <!--            \nBrilho definido para o máximo,-->
+    <!--            \nMantenha o brilho no mínimo,-->
+    <!--            \nAbra link correspondente, Fecha link correspondente -->
+    <!--            \nAbrir o CarPlay, Fechar o CarPlay,-->
+    <!--            \nAbrir o navegador, Fechar o navegador,-->
+    <!--            \nRetorno, Página inicial</string>-->
+    <!--    <string name="commands_item_media_control_detail">Música aberta, Tocar música, Desligar música,-->
+    <!--        \nRádio ligado, Desligar o rádio,-->
+    <!--        \nVídeo aberta, Ligar o vídeo,Vídeo desligado,-->
+    <!--        \nLigar a TV, Desligar a TV,-->
+    <!--        \nTocar EQ, Fechar EQ,-->
+    <!--        \nTocar a música online, Desligar a música online,-->
+    <!--        \nParar a música, Continuar a reprodução,-->
+    <!--        \nPróxima música, Música anterior,-->
+    <!--        \nCanal anterior, Próxima canal,-->
+    <!--        \nBusca em frente, Busca anterior,-->
+    <!--        \nPesquisar canal de rádio,-->
+    <!--        \nMudar de modo</string>-->
+    <!--    <string name="commands_item_navi_control_detail">Ligar a navegação, Sair da navegação</string>-->
+    <!--    <string name="commands_item_car_control_detail">Abrir o ar condicionado, Fechar o ar condicionado,-->
+    <!--            \nAumentar a temperatura, Diminuir a temperatura,-->
+    <!--            \nManter a temperatura mínima,-->
+    <!--            \nAjustar a temperatura para o mais alto,-->
+    <!--            \nAumentar a velocidade do vento, Diminuir a velocidade do vento,-->
+    <!--            \nVelocidade máxima do vento, Velocidade mínima do vento,-->
+    <!--            \nLigar o AC interruptor, Desligar o AC interruptor,-->
+    <!--            \nAbrir circulação interna, Fechar circulação interna,-->
+    <!--            \nAux aberta, Aux fechado,-->
+    <!--            \nAbrir DVR, Fechar DVR,-->
+    <!--            \nAbrir a câmera esquerda, Abrir a câmera direita,-->
+    <!--            \nAbrir câmera frontal, Abrir câmera traseira,-->
+    <!--            \nAbrir panorama</string>-->
+
+
+</resources>

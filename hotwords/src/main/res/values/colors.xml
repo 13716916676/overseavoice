@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/bg</color>
+    <color name="colorPrimaryDark">@color/bg</color>
+    <color name="colorAccent">#6F8FFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="bg">#1E2D44</color>
+    <color name="bg_container">#3D4C65</color>
+    <color name="bg_tab">#4D5F80</color>
+    <color name="text_main">#f6f6fa</color>
+    <color name="text_seconds">#ACB2BE</color>
+    <color name="line_main">#33ffffff</color>
+</resources>

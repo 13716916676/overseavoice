@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name" translatable="false">Hotwords</string>
+
+    <string name="main_tab_about">バージョン情報</string>
+    <string name="main_tab_commands">音声操作</string>
+    <string name="main_tab_settings">音声設定</string>
+    <string name="main_title">思必馳天琴設定</string>
+
+    <string name="settings_item_wakeup">起動</string>
+    <string name="settings_item_wakeup_tips">オンにすると音声操作が有効になります。オフにすると無効になります。</string>
+    <string name="settings_item_language">言語</string>
+    <string name="settings_item_language_tips">変更すると、画面表示の言語と音声対話の言語が同時に切り替わります。</string>
+
+    <string name="about_desc">思必馳天琴インテリジェント音声ドライブシステム</string>
+    <string name="about_terms"><u>規約</u></string>
+    <string name="about_privacy"><u>プライバシー</u></string>
+    <string name="about_copyright">著作権©2007-%s 思必馳はすべての権利を留保します。</string>
+
+    <string name="dialog_title">言語選択</string>
+    <string name="dialog_btn_confirm">確認</string>
+    <string name="dialog_btn_cancel">取消</string>
+
+    <string name="commands_item_system_control">システムコントロール</string>
+    <string name="commands_item_media_control">マルチメディアコントロール</string>
+    <string name="commands_item_navi_control">ナビゲーションコントロール</string>
+    <string name="commands_item_car_control">カーコントロール</string>
+
+    <string name="commands_item_system_control_detail">画面表示, 画面非表示,
+            \nWiFiメニューを開く, WiFiメニューを閉じる,
+            \nブルートゥースメニューを開く, ブルートゥースメニューを閉じる,
+            \nボリュームアップ, ボリュームダウン,
+            \nミュート, ミュート解除,
+            \n明るさを上げる, 明るさを下げる,
+            \n最大輝度に設定する, 最小輝度に設定する,
+            \nミラーリンクを開く, ミラーリンクを閉じる,
+            \nCarPlayを開く, CarPlayを閉じる,
+            \nブラウザを開く, ブラウザを閉じる,
+            \n戻る, ホームページに戻る</string>
+    <string name="commands_item_media_control_detail">音楽メニューを開く, 音楽再生, 音楽メニューを閉じる,
+            \nラジオをつける, ラジオを消す,
+            \nビデオメニューを開く, ビデオを再生する, ビデオメニューを閉じる,
+            \nテレビをつける, テレビを消す,
+            \nEQを開く, EQを閉じる,
+            \nオンライン音楽メニューを開く, オンライン音楽メニューを閉じる,
+            \n再生を一時停止する, 再生を再開する,
+            \n次の曲へ, 前の曲へ,
+            \n前のチャンネルへ, 次のチャンネルへ,
+            \n前方検索, 後方検索,
+            \nラジオ局検索,
+            \nモード切替</string>
+    <string name="commands_item_navi_control_detail">カーナビメニューを開始する, カーナビメニューを終了する</string>
+    <string name="commands_item_car_control_detail">エアコンメニューを開く, エアコンメニューを閉じる,
+            \n温度を上げる, 温度を下げる,
+            \n最高温度, 最低温度,
+            \n風速を上げる, 風速を下げる, 最大風速, 最低風速,
+            \nACをオンにする, ACをオフにする,
+            \n内気循環を開く, 内気循環を閉じる,
+            \nAUXメニューを開く, AUXメニューを閉じる,
+            \nDVRメニューを開く, DVRメニューを閉じる,
+            \nレフトビューカメラを開く, ライトビューカメラを開く,
+            \nフロントビューカメラを開く, リアビューカメラを開く,
+            \nパノラマを開く</string>
+
+
+</resources>

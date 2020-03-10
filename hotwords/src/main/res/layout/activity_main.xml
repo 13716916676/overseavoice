@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:gravity="center_vertical"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/main_title"
+        android:textColor="@color/text_main"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rect_4_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_left_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/content"
+        app:layout_constraintLeft_toLeftOf="@+id/content"
+        app:layout_constraintTop_toTopOf="@+id/content"
+        tools:background="#bb993ac3">
+
+
+        <TextView
+            android:id="@+id/tv_tab_settings"
+            style="@style/main_text_tab"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:gravity="center_vertical"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:drawablePadding="6dp"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:ellipsize="marquee"
+            android:drawableLeft="@drawable/icon_tab_settings"
+            android:text="@string/main_tab_settings" />
+
+
+        <TextView
+            android:id="@+id/tv_tab_commands"
+            style="@style/main_text_tab"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:gravity="center_vertical"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:drawablePadding="6dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:drawableLeft="@drawable/icon_tab_commands"
+            android:text="@string/main_tab_commands" />
+
+
+        <TextView
+            android:id="@+id/tv_tab_about"
+            style="@style/main_text_tab"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:gravity="center_vertical"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:drawablePadding="6dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:drawableLeft="@drawable/icon_tab_about"
+            android:text="@string/main_tab_about" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:paddingRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/content"
+        app:layout_constraintLeft_toRightOf="@+id/ll_left_tab"
+        app:layout_constraintRight_toRightOf="@+id/content"
+        app:layout_constraintTop_toTopOf="@+id/content"
+        tools:background="#aaa0c0d0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

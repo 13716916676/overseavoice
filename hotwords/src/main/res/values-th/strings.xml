@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">Hotwords</string>
+
+    <string name="main_tab_about">เกี่ยว</string>
+    <string name="main_tab_commands">คำสั่งในการใช้เสียง</string>
+    <string name="main_tab_settings">การตั้งค่าด้วยการใช้เสียง</string>
+    <string name="main_title">การตั้งค่าของ AISpeech Lyra</string>
+
+    <string name="settings_item_wakeup">ปลุกดื่น</string>
+    <string name="settings_item_language">ภาษา</string>
+    <string name="settings_item_language_tips">เมื่อตั้งค่าเปลี่ยนการใช้ภาษาแล้ว ภาษาที่แสดงบนหน้าจอจะเปลี่ยนพร้อมกับภาษาของการใช้เสียง</string>
+
+    <string name="about_desc">ระบบการขับรถด้วยการใช้เสียงแบบสมาร์ตของ AISpeech Lyr</string>
+    <string name="about_terms"><u>เงื่อนไข</u></string>
+    <string name="about_privacy"><u>สิทธิเฉพาะส่วนตัว</u></string>
+    <string name="about_copyright">Copyright © 2007-%s AISpeech All Rights Reserved</string>
+
+    <string name="dialog_title">เลือกภาษา</string>
+    <string name="dialog_btn_confirm">ตกลง</string>
+    <string name="dialog_btn_cancel">ยกเลิก</string>
+
+    <string name="commands_item_system_control">การควบคุมทางระบบ</string>
+    <string name="commands_item_media_control">การควบคุมจากมิลติมีเดีย</string>
+    <string name="commands_item_navi_control">การควบคุมโดยระบบการนำทาง</string>
+    <string name="commands_item_car_control">การควบคุมทางรถ</string>
+
+    <string name="commands_item_system_control_detail">เปิดหน้าจอ, ปิดหน้าจอ,
+            \nเปิด wifi, ปิด wifi,
+            \nเปิด bluetooth, ปิด bluetooth,
+            \nปรับเสียงขึ้น, ปรับเสียงลง,
+            \nปิดเสียง, ยกเลิกการปิดเสียง,
+            \nปรับหน้าจอให้สว่างขึ้น, ปรับหน้าจอให้มืดลง,
+            \nปรับความสว่างให้สว่างที่สุด,
+            \nปรับความสว่างให้มืดที่สุด,
+            \nเปิด mirror link, ปิด mirror link,
+            \nเปิด CarPlay, ปิด CarPlay,
+            \nเปิดเบราวเซอร์, ปิดเบราวเซอร์,
+            \nกลับ, กลับสู่เมนูก่อนหน้านี้, กลับไปสู่เมนูหลัก</string>
+    <string name="commands_item_media_control_detail">เปิดเมนูเพลง, เปิดเพลง, ปิดเพลง,
+            \nเปิดวิทยุ, ปปิดวิทยุ,
+            \nเปิดเมนูวิดีโอ, เปิดวิดีโอ, ปิดวิดีโอ,
+            \nเปิดโทรทัศน์, ปิดโทรทัศน์,
+            \nเปิด EQ, ปิด EQ,
+            \nเปิดเพลงออนไลน์, ปิดเพลงออนไลน์,
+            \nหยุดเล่นชั่วคราว, เปิดฟังต่อ,
+            \nเพลงต่อไป, เพลงที่แล้ว,
+            \nสถานีวิทยุรายการก่อนหน้า, สถานีวิทยุรายการถัดไป,
+            \nค้นหาคลื่นความถี่ถัดไป, ย้อนกลับค้นหาคลื่นความถี่,
+            \nค้นหาสถานีวิทยุ,
+            \nเปลี่ยนโหมด</string>
+    <string name="commands_item_navi_control_detail">เปิดระบบนำทาง, ปิดระบบนำทาง</string>
+    <string name="commands_item_car_control_detail">เปิดเครื่องปรับอากาศ, ปิดเครื่องปรับอากาศ,
+            \nปรับอุณหภูมิให้สูงขึ้น, ปรับอุณหภูมิให้ต่ำลง,
+            \nอุณหภูมิที่สูงสุด,อุณหภูมิที่ต่ำสุด,
+            \nปรับความแรงพัดลมแรงขึ้น, ปรับความแรงพัดลมช้าลง,
+            \nความแรงพัดลมที่สูงสุด, ความแรงพัดลงที่ต่ำสุด,
+            \nเปิดสวิตช์ AC, ปิดสวิตช์ AC,
+            \nเปิดอากาศหมุนเวียนภายใน, ปิดอากาศหมุนเวียนภายในn,
+            \nเปิด AUX, ปิด AUX,
+            \nเปิด DVR, ปิด DVR,
+            \nเปิดกล้องด้านซ้าย, เปิดกล้องด้านขวา,
+            \nเปิดกล้องด้านหน้า, เปิดกล้องด้านหลัง,
+            \nเปิดภาพแบบพาโนรามา</string>
+    <string name="settings_item_wakeup_tips">เมื่อเปิดเครื่องแล้ว จะสามารถใช้คำสั่งในการใช้เสียงได้ทันที เมื่อปิดเครื่อง คำสั่งการใช้ในเสียงจะหยุดทำการ</string>
+
+
+</resources>
